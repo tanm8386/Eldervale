@@ -1,0 +1,42 @@
+# Dependencies and tool caches
+node_modules/
+.cache/
+.vite/
+.prettiercache
+
+# Production builds and TypeScript incremental state
+/dist/
+*.tsbuildinfo
+
+# Local character saves and running-process metadata
+/.data/
+*.pid
+*.pid.lock
+
+# Local environment configuration; keep shareable templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Browser tests, coverage, and diagnostic output
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/coverage/
+.nyc_output/
+*.log
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editable Aseprite sources, exported game assets, fonts and licenses,
+# and package-lock.json are intentionally included in version control.

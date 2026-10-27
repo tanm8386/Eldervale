@@ -1,0 +1,731 @@
+@media (min-width: 1500px) and (min-height: 950px) {
+  .creation-topbar {
+    height: 110px;
+  }
+  .creation-heading {
+    padding: 40px 0 30px;
+  }
+  .creation-card {
+    min-height: 614px;
+  }
+  .showcase-scene {
+    height: 400px;
+  }
+  .creation-options {
+    padding: 30px 36px;
+  }
+  .section-rule {
+    margin: 24px 0;
+  }
+  .class-choices {
+    margin-top: 20px;
+  }
+  .class-choice {
+    padding-top: 15px;
+    padding-bottom: 16px;
+  }
+  .appearance-grid {
+    gap: 20px 24px;
+    margin-top: 22px;
+  }
+  .creation-footer {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1180px) {
+  .creation-page {
+    padding: 0 30px;
+  }
+  .creation-topbar {
+    height: 82px;
+  }
+  .creation-main {
+    max-width: 1030px;
+  }
+  .creation-heading {
+    padding: 26px 0 22px;
+  }
+  .creation-heading h1 {
+    font-size: 30px;
+  }
+  .creation-options {
+    padding: 24px;
+  }
+  .creation-card {
+    grid-template-columns: 37% 63%;
+  }
+  .showcase-scene {
+    height: 365px;
+  }
+  .showcase-title {
+    left: 23px;
+  }
+  .class-profile {
+    padding: 20px 24px;
+  }
+  .class-profile > p {
+    font-size: 11px;
+  }
+  .class-ratings {
+    gap: 18px;
+  }
+  .appearance-grid {
+    gap: 14px 18px;
+  }
+  .swatches {
+    gap: 7px;
+  }
+  .swatches button {
+    width: 24px;
+    height: 24px;
+  }
+  .creation-submit {
+    gap: 10px;
+  }
+  .enter-button {
+    min-width: 195px;
+  }
+  .save-note {
+    font-size: 8px;
+  }
+  .topbar-actions {
+    min-width: auto;
+  }
+  .realm-pill {
+    margin-left: 0;
+  }
+  .player-hud {
+    left: 16px;
+    width: 260px;
+  }
+  .player-portrait {
+    width: 53px;
+  }
+  .player-portrait .avatar {
+    width: 53px;
+    height: auto;
+  }
+  .player-vitals {
+    min-width: 0;
+  }
+  .player-name-line strong {
+    font-size: 13px;
+  }
+  .player-subline {
+    font-size: 5px;
+  }
+  .right-hud {
+    right: 16px;
+    width: 189px;
+  }
+  .minimap-art {
+    height: 120px;
+  }
+  .zone-heading {
+    width: 330px;
+  }
+  .zone-heading h1 {
+    font-size: 25px;
+  }
+  .zone-heading > span:last-child {
+    font-size: 6px;
+    letter-spacing: 0.6px;
+  }
+  .quest-tracker {
+    margin-top: 17px;
+  }
+  .quest-title {
+    font-size: 13px;
+  }
+  .tracked-objective {
+    font-size: 9px;
+  }
+  .chat-panel {
+    left: 16px;
+    width: 244px;
+  }
+  .chat-log {
+    height: 86px;
+  }
+  .bottom-right {
+    right: 16px;
+  }
+  .game-dock > .icon-button {
+    width: 35px;
+    height: 40px;
+  }
+  .game-dock {
+    gap: 3px;
+    padding: 5px;
+  }
+  .game-dock .pixel-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .gold-display strong {
+    font-size: 15px;
+  }
+  .skill-slot {
+    width: 45px;
+    height: 49px;
+  }
+  .hotbar {
+    padding: 7px;
+    gap: 5px;
+  }
+  .skill-slot > .pixel-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .hotbar-caption > span:last-child {
+    font-size: 6px;
+  }
+  .target-hud {
+    left: 16px;
+    top: 181px;
+    width: 206px;
+  }
+  .realm-connection {
+    font-size: 5px;
+    gap: 4px;
+  }
+  .notices {
+    top: 160px;
+    width: 390px;
+  }
+  .notice {
+    font-size: 9px;
+  }
+  .creation-footer {
+    margin-top: 25px;
+  }
+}
+@media (max-height: 950px) and (min-width: 1000px) {
+  .creation-topbar {
+    height: 75px;
+  }
+  .creation-heading {
+    padding: 20px 0 19px;
+  }
+  .creation-heading h1 {
+    font-size: 29px;
+    margin: 7px 0 5px;
+  }
+  .creation-heading p {
+    font-size: 11px;
+  }
+  .creation-heading .eyebrow {
+    font-size: 7px;
+  }
+  .creation-card {
+    min-height: 0;
+  }
+  .showcase-scene {
+    height: 325px;
+  }
+  .class-profile {
+    padding: 17px 25px 15px;
+  }
+  .class-profile > p {
+    font-size: 11px;
+    min-height: 58px;
+    line-height: 1.7;
+  }
+  .class-ratings {
+    margin: 12px 0;
+  }
+  .class-tradeoff {
+    font-size: 8px;
+    padding-top: 11px;
+  }
+  .creation-options {
+    padding: 21px 28px 18px;
+  }
+  .section-heading h3 {
+    font-size: 15px;
+  }
+  .section-heading p {
+    font-size: 9px;
+  }
+  .class-choices {
+    margin-top: 13px;
+  }
+  .class-choice {
+    padding: 8px 5px 10px;
+    gap: 4px;
+  }
+  .class-choice > .pixel-icon {
+    width: 31px;
+    height: 31px;
+  }
+  .class-choice strong {
+    font-size: 13px;
+  }
+  .class-choice > span:last-child {
+    font-size: 8px;
+  }
+  .class-insight {
+    margin-top: 10px;
+    gap: 4px;
+  }
+  .class-insight > div {
+    font-size: 8px;
+  }
+  .section-rule {
+    margin: 16px 0;
+  }
+  .appearance-grid {
+    margin-top: 15px;
+    gap: 12px 22px;
+  }
+  .appearance-grid label,
+  .appearance-grid legend {
+    margin-bottom: 5px;
+    font-size: 9px;
+  }
+  .swatches {
+    height: 29px;
+  }
+  .name-input,
+  .segmented-control {
+    height: 33px;
+  }
+  .style-selector {
+    height: 30px;
+  }
+  .creation-submit {
+    padding-top: 19px;
+  }
+  .enter-button {
+    height: 42px;
+    min-height: 42px;
+  }
+  .creation-below {
+    margin-top: 15px;
+    font-size: 8px;
+  }
+  .creation-footer {
+    margin-top: 20px;
+    padding: 15px 0;
+    font-size: 7px;
+  }
+  .hero-avatar .avatar {
+    width: 130px;
+    height: auto;
+  }
+  .modal-shade {
+    padding-top: 56px;
+    padding-bottom: 25px;
+  }
+  .game-modal {
+    max-height: calc(100svh - 90px);
+  }
+  .help-controls {
+    gap: 17px 25px;
+  }
+  .help-modal .modal-body {
+    padding: 20px 24px;
+  }
+  .help-tip {
+    margin: 18px 0;
+  }
+  .help-modal .modal-intro {
+    font-size: 11px;
+    margin-bottom: 20px;
+  }
+  .help-controls p {
+    font-size: 9px;
+  }
+  .help-controls strong {
+    font-size: 12px;
+  }
+  .help-controls {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 950px) {
+  .creation-page {
+    padding: 0 22px;
+  }
+  .creation-topbar {
+    height: 78px;
+  }
+  .brand span {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .brand small {
+    font-size: 6px;
+    letter-spacing: 2.5px;
+  }
+  .brand > img {
+    width: 36px;
+    height: 36px;
+  }
+  .realm-pill {
+    padding: 8px 11px;
+    font-size: 10px;
+    gap: 7px;
+  }
+  .realm-pill small {
+    font-size: 6px;
+    letter-spacing: 0.8px;
+  }
+  .creation-step {
+    display: none;
+  }
+  .creation-heading {
+    padding: 25px 0 22px;
+  }
+  .creation-heading h1 {
+    font-size: 30px;
+  }
+  .creation-card {
+    grid-template-columns: 35% 65%;
+  }
+  .creation-options {
+    padding: 22px;
+  }
+  .showcase-title {
+    left: 20px;
+    top: 22px;
+  }
+  .showcase-title h2 {
+    font-size: 31px;
+  }
+  .showcase-title .eyebrow {
+    font-size: 7px;
+  }
+  .showcase-scene {
+    height: 345px;
+  }
+  .showcase-scene .scene-art {
+    object-position: 50% 50%;
+  }
+  .hero-avatar .avatar {
+    width: 125px;
+    height: auto;
+  }
+  .class-profile {
+    padding: 19px;
+  }
+  .class-profile > p {
+    font-size: 11px;
+    line-height: 1.9;
+  }
+  .class-ratings {
+    gap: 12px;
+    flex-direction: column;
+    margin: 19px 0;
+  }
+  .class-ratings > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .class-ratings > div > span {
+    font-size: 7px;
+    min-width: 55px;
+  }
+  .rating-pips {
+    width: 78px;
+    margin: 0;
+    gap: 4px;
+  }
+  .rating-pips i {
+    width: 12px;
+    height: 4px;
+  }
+  .class-tradeoff {
+    font-size: 8px;
+  }
+  .section-heading h3 {
+    font-size: 15px;
+  }
+  .section-heading p {
+    font-size: 9px;
+  }
+  .section-heading {
+    gap: 10px;
+  }
+  .section-number {
+    height: 25px;
+    width: 25px;
+    font-size: 9px;
+  }
+  .class-choices {
+    gap: 8px;
+  }
+  .class-choice {
+    padding: 11px 5px;
+  }
+  .class-choice > span:last-child {
+    font-size: 7px;
+  }
+  .class-insight > div {
+    font-size: 8px;
+  }
+  .appearance-grid {
+    gap: 15px 15px;
+  }
+  .swatches {
+    gap: 7px;
+  }
+  .swatches button {
+    height: 23px;
+    width: 23px;
+  }
+  .appearance-grid label,
+  .appearance-grid legend {
+    font-size: 9px;
+  }
+  .appearance-grid legend > span {
+    font-size: 7px;
+  }
+  .creation-submit {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding-top: 23px;
+  }
+  .save-note {
+    order: 2;
+    max-width: 100%;
+    justify-content: center;
+    font-size: 8px;
+  }
+  .enter-button {
+    height: 43px;
+    justify-content: center;
+    gap: 18px;
+  }
+  .creation-footer {
+    margin-top: 23px;
+  }
+  .resume-button {
+    font-size: 9px;
+  }
+  .game-topbar {
+    padding: 0 15px;
+    gap: 17px;
+  }
+  .topbar-realm {
+    padding-left: 16px;
+    font-size: 7px;
+  }
+  .topbar-realm > span:last-child {
+    display: none;
+  }
+  .player-hud {
+    width: 228px;
+    height: 94px;
+    padding: 10px;
+    gap: 9px;
+  }
+  .player-portrait {
+    width: 47px;
+    height: 66px;
+  }
+  .player-portrait .avatar {
+    width: 49px;
+    left: -1px;
+  }
+  .player-name-line strong {
+    font-size: 12px;
+  }
+  .player-name-line > span {
+    font-size: 8px;
+  }
+  .player-subline > span:first-child {
+    display: none;
+  }
+  .player-subline {
+    justify-content: flex-end;
+    font-size: 6px;
+  }
+  .zone-heading {
+    top: 73px;
+    width: 280px;
+  }
+  .zone-heading h1 {
+    font-size: 23px;
+  }
+  .zone-heading > span:last-child {
+    font-size: 5px;
+  }
+  .zone-ornament {
+    font-size: 8px;
+  }
+  .right-hud {
+    width: 165px;
+  }
+  .minimap-art {
+    height: 106px;
+  }
+  .minimap-heading {
+    font-size: 8px;
+    height: 26px;
+    gap: 5px;
+  }
+  .minimap-heading .pixel-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .minimap-footer {
+    font-size: 7px;
+    height: 23px;
+  }
+  .quest-tracker-heading {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
+  .quest-tracker-heading .pixel-icon {
+    width: 17px;
+    height: 17px;
+  }
+  .quest-category {
+    font-size: 6px;
+    letter-spacing: 0.6px;
+  }
+  .quest-title {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .tracked-objective {
+    font-size: 8px;
+    gap: 5px;
+  }
+  .tracked-objective small {
+    font-size: 7px;
+  }
+  .tracked-objective > span:last-child:not(:first-child) {
+    font-size: 8px;
+  }
+  .chat-panel {
+    width: 218px;
+    bottom: 19px;
+  }
+  .chat-log {
+    height: 77px;
+  }
+  .chat-log > p {
+    font-size: 8px;
+  }
+  .chat-log .system-chat {
+    font-size: 7px;
+  }
+  .chat-time {
+    display: none;
+  }
+  .chat-input-row input {
+    font-size: 8px;
+  }
+  .chat-input-row input::placeholder {
+    font-size: 7px;
+  }
+  .bottom-center {
+    bottom: 20px;
+    left: 51%;
+  }
+  .skill-slot {
+    width: 39px;
+    height: 44px;
+  }
+  .skill-slot > .pixel-icon {
+    width: 27px;
+    height: 27px;
+  }
+  .hotbar {
+    gap: 4px;
+    padding: 6px;
+  }
+  .hotbar-caption > span:last-child {
+    display: none;
+  }
+  .hotbar-caption {
+    font-size: 6px;
+    margin-bottom: 6px;
+    justify-content: center;
+  }
+  .hotbar-separator {
+    margin: 0;
+    height: 27px;
+  }
+  .skill-cost {
+    font-size: 5px;
+  }
+  .skill-slot > kbd {
+    font-size: 7px;
+    height: 11px;
+    min-width: 10px;
+  }
+  .bottom-right {
+    bottom: 19px;
+    gap: 8px;
+  }
+  .game-dock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .game-dock > .icon-button {
+    width: 37px;
+    height: 38px;
+  }
+  .realm-connection {
+    font-size: 5px;
+  }
+  .realm-connection > span:nth-child(2) {
+    display: none;
+  }
+  .realm-connection {
+    max-width: 89px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .gold-display {
+    min-width: 89px;
+    padding-left: 3px;
+  }
+  .gold-display .pixel-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .gold-display > span {
+    font-size: 5px;
+  }
+  .gold-display strong {
+    font-size: 13px;
+  }
+  .interaction-prompt {
+    font-size: 9px;
+    margin-bottom: 16px;
+    padding: 6px 9px;
+  }
+  .interaction-prompt kbd {
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+  }
+  .movement-hint {
+    font-size: 6px;
+    gap: 7px;
+  }
+  .movement-hint kbd {
+    font-size: 5px;
+    min-width: 10px;
+    height: 10px;
+  }
+  .notices {
+    width: 320px;
+    top: 157px;
+  }
+  .notice {
+    padding: 8px 11px;
+    font-size: 8px;
+  }
+  .notice .pixel-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
